@@ -47,7 +47,6 @@ a{
 
 .header__content{
     padding-top: 60px;
-    position: relative;
 }
 
 .header__title{
@@ -76,12 +75,6 @@ a{
     text-transform: uppercase;
     padding: 14px 54px 15px;
     background-color: #5A0D67;
-    transition: all .5s;
-}
-
-.button:hover{
-    color: #5A0D67;
-    background-color: #fff;
 }
 
 .header__social{
@@ -94,8 +87,3 @@ a{
     margin-right: 10px;
 }
 
-.header__images{
-    position: absolute;
-    right: 0;
-    bottom: -265px;
-}
