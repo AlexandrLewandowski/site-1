@@ -11,17 +11,6 @@ body {
     font-weight: 300;
     color:#2C2B2B;
 }
-a{
-    text-decoration: none;
-    color:inherit;
-    display: inline-block;
-}
-
-.container{
-    max-width: 1220px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
 
 .header{
     background-image: url(../images/header-bg.jpg);

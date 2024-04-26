@@ -17,11 +17,7 @@ a{
     display: inline-block;
 }
 
-.container{
-    max-width: 1220px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
+
 
 .header{
     background-image: url(../images/header-bg.jpg);
