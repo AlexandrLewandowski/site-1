@@ -160,45 +160,9 @@ a {
     position: relative;
 }
 
-.button--decor::after {
+/button--decor::after {
     content: 'ЖМИ';
     color: #c4c4c4;
+    position: absolute;
     margin-left: 130px;
-    position: absolute;
-}
-
-.button--decor::before {
-    content: '';
-    width: 80px;
-    height: 2px;
-    background-color: #c4c4c4;
-    position: absolute;
-    right: -65px;
-    top: 24px;
-}
-
-.services__list {
-    list-style: none;
-    counter-reset: my-counter;
-}
-
-.services__item {
-    counter-increment: my-counter;
-    border: 1px solid #c4c4c4;
-    margin-bottom: 12px;
-    width: 450px;
-    padding: 10px 15px 10px 113px;
-}
-
-.services__item::before {
-    content: '0'counter(my-counter);
-}
-
-.services__item-title {
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.services__item-text {
-    
 }

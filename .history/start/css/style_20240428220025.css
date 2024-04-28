@@ -184,21 +184,8 @@ a {
 
 .services__item {
     counter-increment: my-counter;
-    border: 1px solid #c4c4c4;
-    margin-bottom: 12px;
-    width: 450px;
-    padding: 10px 15px 10px 113px;
 }
 
 .services__item::before {
     content: '0'counter(my-counter);
-}
-
-.services__item-title {
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.services__item-text {
-    
 }
