@@ -1,0 +1,3 @@
+$(function () {
+    $('.carousel__inner')
+});

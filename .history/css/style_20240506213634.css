@@ -341,23 +341,22 @@ a {
     margin-bottom: 20px;
 }
 
-.contacts__item-title {
+.contacs__item-title {
     color: #5A0D67;
 }
 
-.contacts__form {
+.contact__form {
     background-color: #210621;
     padding: 50px 75px 57px;
-    text-align: center;
 }
 
-.contacts__title {
+.contact__title {
     color: #fff;
     margin-bottom: 16px;
     margin-left: 53px;
 }
 
-.contacts__title::after {
+.contact__title::after {
     background-color: #fff;
 }
 
@@ -369,7 +368,6 @@ a {
     border: 1px solid #fff;
     margin-bottom: 12px;
     display: block;
-
 }
 
 .contacts__input::placeholder {
@@ -379,11 +377,5 @@ a {
     line-height: 27px;
     font-weight: 300;
     color: #c4c4c4;
-}
 
-.contacts__btn {
-    border: none;
-    color: #fff;
-    margin-top: 78px;
-    cursor: pointer;
 }

@@ -348,7 +348,6 @@ a {
 .contacts__form {
     background-color: #210621;
     padding: 50px 75px 57px;
-    text-align: center;
 }
 
 .contacts__title {
@@ -369,7 +368,6 @@ a {
     border: 1px solid #fff;
     margin-bottom: 12px;
     display: block;
-
 }
 
 .contacts__input::placeholder {
@@ -381,9 +379,4 @@ a {
     color: #c4c4c4;
 }
 
-.contacts__btn {
-    border: none;
-    color: #fff;
-    margin-top: 78px;
-    cursor: pointer;
-}
+.contacts__btn {}

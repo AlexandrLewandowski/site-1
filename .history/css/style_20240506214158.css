@@ -369,7 +369,6 @@ a {
     border: 1px solid #fff;
     margin-bottom: 12px;
     display: block;
-
 }
 
 .contacts__input::placeholder {
@@ -385,5 +384,4 @@ a {
     border: none;
     color: #fff;
     margin-top: 78px;
-    cursor: pointer;
 }
