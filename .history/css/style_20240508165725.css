@@ -433,15 +433,6 @@ a {
     .services__item {
         width: 100%;
     }
-
-    .services__item:hover {
-        width: 100%;
-    }
-
-    .services__content {
-        width: 100%;
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 900px) {
