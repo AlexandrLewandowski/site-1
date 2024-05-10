@@ -211,8 +211,7 @@ a {
     width: 500px;
 }
 
-.services__item:hover,
-.services__item-title {
+.services__item:hover .services__item-title {
     color: #5A0D67;
 
 }
@@ -444,10 +443,6 @@ a {
         width: 100%;
         margin-right: 0;
     }
-
-    .benefits__images {
-        display: none;
-    }
 }
 
 @media (max-width: 900px) {
@@ -476,24 +471,6 @@ a {
     }
 }
 
-@media (max-width: 768px) {
-    .benefits__inner {
-        text-align: center;
-    }
-
-    .benefits__list {
-        padding: 25px 15px;
-    }
-
-    .benefits__item {
-        width: 100%;
-    }
-
-    .benefits__title {
-        margin-left: 0;
-    }
-}
-
 @media (max-width: 600px) {
     .header__content {
         padding-top: 0;
@@ -516,11 +493,6 @@ a {
         font-size: 28px;
         line-height: 36px;
         margin-bottom: 30px;
-        text-align: center;
-    }
-
-    .title::after {
-        display: none;
     }
 
     body {
@@ -530,15 +502,6 @@ a {
 
     .services__item::before {
         top: 5px;
-    }
-
-    .services__content {
-        text-align: center;
-    }
-
-    .benefits__item-num {
-        font-size: 28px;
-        line-height: 36px;
     }
 }
 
@@ -580,19 +543,6 @@ a {
 
     .button--decor::after {
         margin-left: 110px;
-    }
-
-    .services__inner,
-    .benefits {
-        margin-bottom: 50px;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .button--decor::before,
-    .button--decor::after {
-        display: none;
     }
 }
 

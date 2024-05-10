@@ -488,10 +488,6 @@ a {
     .benefits__item {
         width: 100%;
     }
-
-    .benefits__title {
-        margin-left: 0;
-    }
 }
 
 @media (max-width: 600px) {
@@ -534,11 +530,6 @@ a {
 
     .services__content {
         text-align: center;
-    }
-
-    .benefits__item-num {
-        font-size: 28px;
-        line-height: 36px;
     }
 }
 

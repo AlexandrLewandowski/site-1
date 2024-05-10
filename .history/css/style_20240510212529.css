@@ -537,6 +537,7 @@ a {
     }
 
     .benefits__item-num {
+        font-weight: 400;
         font-size: 28px;
         line-height: 36px;
     }

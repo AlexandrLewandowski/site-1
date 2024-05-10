@@ -444,10 +444,6 @@ a {
         width: 100%;
         margin-right: 0;
     }
-
-    .benefits__images {
-        display: none;
-    }
 }
 
 @media (max-width: 900px) {
@@ -473,24 +469,6 @@ a {
 
     .header__social {
         padding: 30px 0 20px 55px;
-    }
-}
-
-@media (max-width: 768px) {
-    .benefits__inner {
-        text-align: center;
-    }
-
-    .benefits__list {
-        padding: 25px 15px;
-    }
-
-    .benefits__item {
-        width: 100%;
-    }
-
-    .benefits__title {
-        margin-left: 0;
     }
 }
 
@@ -534,11 +512,6 @@ a {
 
     .services__content {
         text-align: center;
-    }
-
-    .benefits__item-num {
-        font-size: 28px;
-        line-height: 36px;
     }
 }
 
