@@ -487,15 +487,6 @@ a {
     .contacts__input {
         width: 100%;
     }
-
-    .contacts__btn {
-        margin-top: 20px;
-    }
-
-    .contacts__title {
-        text-align: center;
-        margin-left: 0;
-    }
 }
 
 @media (max-width: 768px) {
@@ -513,21 +504,6 @@ a {
 
     .benefits__title {
         margin-left: 0;
-    }
-}
-
-@media (max-width: 650px) {
-    .footer__inner {
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .footer__social {
-        width: 100%;
-        justify-content: center;
-        margin: 25px 0;
     }
 }
 
@@ -632,10 +608,9 @@ a {
     .carousel .slick-dots button {
         width: 10px;
     }
+}
 
-    .contacts__form {
-        padding: 50px 10px 57px;
-    }
+@media (max-width: 360px) {
 
     .button--decor::before,
     .button--decor::after {

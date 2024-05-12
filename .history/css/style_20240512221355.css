@@ -521,7 +521,7 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
-        padding: 20px 0;
+        width: 20px 0;
     }
 
     .footer__social {

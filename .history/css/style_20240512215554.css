@@ -516,21 +516,6 @@ a {
     }
 }
 
-@media (max-width: 650px) {
-    .footer__inner {
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .footer__social {
-        width: 100%;
-        justify-content: center;
-        margin: 25px 0;
-    }
-}
-
 @media (max-width: 600px) {
     .header__content {
         padding-top: 0;
@@ -636,6 +621,9 @@ a {
     .contacts__form {
         padding: 50px 10px 57px;
     }
+}
+
+@media (max-width: 360px) {
 
     .button--decor::before,
     .button--decor::after {
