@@ -434,6 +434,7 @@ a {
 
     .services__item {
         width: 100%;
+        box-sizing:border-box;
     }
 
     .services__item:hover {
@@ -486,6 +487,7 @@ a {
 
     .contacts__input {
         width: 100%;
+        box-sizing:border-box;
     }
 
     .contacts__btn {
@@ -522,6 +524,7 @@ a {
         justify-content: center;
         height: auto;
         padding: 20px 0;
+        text-align: center;
     }
 
     .footer__social {
